@@ -7,32 +7,36 @@ Sever    0--   function_defination()
 
 #include<stdio.h>
 
+int status;
 int p_port()
 {
     int led = 0;
-    int status = led;
+    status = led;
     return status;
 }
 
 int r_port()
 {
-    
-    return 0;
+    float temp = 0;
+    status = temp;
+    return status;
 }
 
 void main()
 {
-    int u_input;
+    int u_input, pro, req;
     printf("enter which port do you need\n");
     scanf("%d", &u_input);
     if(u_input == pro)
     {
-        
+        printf("set provider port\n");
+        p_port();
         
     }
-    else if()
+    else if(u_input == req)
     {
-        
+        printf("set requider port\n");
+        r_port();
     }
     else
     {
