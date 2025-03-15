@@ -24,14 +24,15 @@ void default_ses()
     printf("Default session\n");
 }
 
-int nrc_10()
+void nrc_10()
 {
-    return NRC_SID_NOT_SUPPORTED;
+    
+    printf("NRC_SID_NOT_SUPPORTED\n");
 }
 
-int nrc_11()
+void nrc_11()
 {
-    return NRC_SUB_FUN_NOT_SUPPORTED;
+    printf("NRC_SUB_FUN_NOT_SUPPORTED\n");
 }
 
 void main()
